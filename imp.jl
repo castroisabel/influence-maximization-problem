@@ -78,7 +78,7 @@ end
 
 
 mu = calculate_mu(g)
-p_ir =calculate_pir(g)
+p_ir = calculate_pir(g)
 n = size(g,1)
 k = 2
 y, great_value, time = imp(mu, k, p_ir)
